@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.List;
 
 @Data
-public class Recipe implements Serializable {
+public class Recipe<egg_recipes, my_recipes> implements Serializable {
     private String description;
     private int quantity;
     private List<Ingredient> ingredients;
